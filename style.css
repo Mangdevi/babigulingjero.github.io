@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.home {
+    background-image: url(background.jpeg);
+    height: 600px;
+    background-size: cover;
+
+}
+
+.section-container {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.border-sample {
+    border: thin solid black !important;
+    padding: 15px;
+    width: 30%;
+}
+
+.border-sample a {
+    margin-top: 10px;
+}
+
+.aturhome {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 160px;
+    color: white;
+}
+
+.aturhome a {
+    margin-left: 43%;
+    margin-top: 20px;
+}
+
+
+.contact {
+
+    width: 40%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.contact input,
+textarea {
+    width: 100%;
+
+}
+
+.border-sample img {
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact a {
+    margin-left: 38%;
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+    width: 150px;
+
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 4px 4px 4px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+
+.about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.drink {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.kotak {
+    background-color: aqua;
+    padding: 30px 10px 30px 10px;
+    text-align: left;
+}
+
+.kotak a {
+    margin-left: 34%;
+    margin-top: 20px;
+}
+
+.kotak ul {
+    margin-left: 130px;
+}
+
+.aturmenu {
+    width: 80%;
+    margin: auto;
+}
+
+.background {
+    padding-top: 30px;
+    margin-top: 100px;
+    background-color: aqua;
+    height: 300px;
+}
